@@ -1,0 +1,8 @@
+cp -r usercode/ AssertTrueExample/
+echo COPIED FROM USERCODE INTO PROJECT FILE
+dotnet build AssertTrueExample/Project/
+echo BUILT CODE TO BE TESTED
+dotnet build AssertTrueExample/ProjectTest/
+echo BUILT TESTING CODE
+dotnet test AssertTrueExample/ProjectTest/bin/Debug/net5.0/ProjectTest.dll
+echo TEST COMPLETE

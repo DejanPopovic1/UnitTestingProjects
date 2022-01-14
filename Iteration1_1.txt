@@ -1,0 +1,11 @@
+echo STARTING SCRIPT
+echo REMOVED USERCODE
+rm -r Iteration1/
+cp -r usercode/ Iteration1/
+echo COPIED FROM USERCODE INTO PROJECT FILE
+dotnet build Iteration1/SoftwareRegressionPrinciple/
+echo BUILT CODE TO BE TESTED
+dotnet build Iteration1/TestProject1/
+echo BUILT TESTING CODE
+dotnet test Iteration1/TestProject1/bin/Debug/net5.0/TestProject1.dll
+echo TEST COMPLETE
