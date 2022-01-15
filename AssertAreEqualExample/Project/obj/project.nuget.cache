@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fO3Zrn32pOzNBIa+RLoxjRrLlGNyN3hneDpKODLMlRWl+agggHIk2e3umsgtGnfk/K6yI87QcxqsZyE/aiUBQg==",
+  "success": true,
+  "projectFilePath": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertAreEqualExample\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dejan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

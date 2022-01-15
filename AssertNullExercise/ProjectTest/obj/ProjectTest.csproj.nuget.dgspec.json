@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\ProjectTest\\ProjectTest.csproj": {}
+  },
+  "projects": {
+    "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\ProjectTest\\ProjectTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\ProjectTest\\ProjectTest.csproj",
+        "projectName": "ProjectTest",
+        "projectPath": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\ProjectTest\\ProjectTest.csproj",
+        "packagesPath": "C:\\Users\\dejan\\.nuget\\packages\\",
+        "outputPath": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\ProjectTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dejan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\Project\\Project.csproj": {
+                "projectPath": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\Project\\Project.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\Project\\Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\Project\\Project.csproj",
+        "projectName": "Project",
+        "projectPath": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\Project\\Project.csproj",
+        "packagesPath": "C:\\Users\\dejan\\.nuget\\packages\\",
+        "outputPath": "C:\\4. Portfolio\\Unit Testing Principles with C# and NUnit\\Course Content - New\\AssertNullExercise\\Project\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dejan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
